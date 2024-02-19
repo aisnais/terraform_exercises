@@ -1,38 +1,38 @@
-variable bucket_name {
-  type        = string
-  description = "S3 bucket name"
-}
+# variable bucket_name {
+#   type        = string
+#   description = "S3 bucket name"
+# }
 
-variable vpc_cidr_block {
-  type        = string
-  description = "VPC CIDR block"
-}
+# variable vpc_cidr_block {
+#   type        = string
+#   description = "VPC CIDR block"
+# }
 
-variable vpc_name {
-  type        = string
-  description = "VPC name"
-}
+# variable vpc_name {
+#   type        = string
+#   description = "VPC name"
+# }
 
-variable cidr_sub1 {
-  type        = string
-  description = "CIDR block of subnet 1"
-}
+# variable cidr_sub1 {
+#   type        = string
+#   description = "CIDR block of subnet 1"
+# }
 
-variable sub1_tag {
-  type        = string
-  description = "Subnet 1 tag"
-}
+# variable sub1_tag {
+#   type        = string
+#   description = "Subnet 1 tag"
+# }
 
 
-variable cidr_sub2 {
-  type        = string
-  description = "CIDR block of subnet 2"
-}
+# variable cidr_sub2 {
+#   type        = string
+#   description = "CIDR block of subnet 2"
+# }
 
-variable sub2_tag {
-  type        = string
-  description = "Subnet 2 tag"
-}
+# variable sub2_tag {
+#   type        = string
+#   description = "Subnet 2 tag"
+# }
 
 variable sg_name {
   type        = string
